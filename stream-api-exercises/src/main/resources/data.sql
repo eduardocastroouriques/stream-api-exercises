@@ -2,7 +2,7 @@ INSERT INTO customer (id, name, tier) VALUES (1, 'Stefan Walker', 1);
 INSERT INTO customer (id, name, tier) VALUES (2, 'Daija Von', 1);
 INSERT INTO customer (id, name, tier) VALUES (3, 'Ariane Rodriguez', 1);
 INSERT INTO customer (id, name, tier) VALUES (4, 'Marques Nikolaus', 2);
-INSERT INTO customer (id, name, tier) VALUES (5, 'Rachelle Greenfelder', 0);
+INSERT INTO customer (id, name, tier) VALUES (5, 'Rachelle Greenfelder', 2);
 INSERT INTO customer (id, name, tier) VALUES (6, 'Larissa White', 2);
 INSERT INTO customer (id, name, tier) VALUES (7, 'Fae Heidenreich', 1);
 INSERT INTO customer (id, name, tier) VALUES (8, 'Dino Will', 2);
@@ -31,7 +31,7 @@ INSERT INTO product (id, name, category, price) VALUES (20, 'libero omnis velit'
 INSERT INTO product (id, name, category, price) VALUES (21, 'consectetur cupiditate sunt', 'Toys', 95.46);
 INSERT INTO product (id, name, category, price) VALUES (22, 'itaque ea qui', 'Baby', 677.78);
 INSERT INTO product (id, name, category, price) VALUES (23, 'non et nulla', 'Grocery', 70.49);
-INSERT INTO product (id, name, category, price) VALUES (24, 'veniam consequatur et', 'Books', 893.44);
+INSERT INTO product (id, name, category, price) VALUES (24, 'veniam consequatur et', 'Books', 11.44);
 INSERT INTO product (id, name, category, price) VALUES (25, 'magnam adipisci voluptate', 'Grocery', 366.13);
 INSERT INTO product (id, name, category, price) VALUES (26, 'reiciendis consequuntur placeat', 'Toys', 359.27);
 INSERT INTO product (id, name, category, price) VALUES (27, 'dolores ipsum sit', 'Toys', 786.99);
