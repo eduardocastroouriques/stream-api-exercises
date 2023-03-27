@@ -44,4 +44,14 @@ public class OrderService {
                 .limit(3)
                 .collect(Collectors.toList());
     }
+
+    public Double getSumOfAllOrders(){
+        return orderRepository.findAll()
+                .stream()
+                .filter(order -> order.getOrderDate().compareTo(LocalDate.of(2021, 2, 28)) >= 0)
+                .filter(order -> order.getOrderDate().compareTo(LocalDate.of(2021, 3, 1)) < 0)
+                .flatMap(order -> order.getProducts().stream())
+                .mapToDouble(value -> value.getPrice())
+                .sum();
+    }
 }

@@ -42,14 +42,15 @@ public class AppCommandRunner implements CommandLineRunner {
 //		List<Product> toys = productService.getByCategoryAndApplyDiscount("Toys", 0.9);
 //		Product lowestPrice = productService.getLowestPrice("Teste");
 //		Product lowestPriceByMinOperator = productService.getLowestPriceByMinOperator("Books");
-		List<Product> productByOrderDate = productService.getByOrderDate(LocalDate.of(2021, 3, 15));
+//		List<Product> productByOrderDate = productService.getByOrderDate(LocalDate.of(2021, 3, 15));
 
 //		List<Product> byCustomerTierAndBetweenDate = orderService.getByCustomerTierAndBetweenDate();
 //		List<Order> baby = orderService.hasAnyProductCategoryLike("Baby");
 //		List<Order> mostRecentPlacedOrder = orderService.getMostRecentPlacedOrder();
+		Double sumOfAllOrders = orderService.getSumOfAllOrders();
 
 		System.out.println("Starting point...");
-		System.out.println(productByOrderDate);
+		System.out.println(sumOfAllOrders);
 	}
 
 }
